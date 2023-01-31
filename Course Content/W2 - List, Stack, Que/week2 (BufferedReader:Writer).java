@@ -11,7 +11,7 @@ class week2{
 
     public static void main(String[] args) {
         try {
-            String address="C:\\Users\\Shahzad\\Desktop\\abc.txt";
+            String address="C:\\Users\\Azrael\\Desktop\\abc.txt";
             //The reason it was not appending is because FileWriter needed another argument
             //FileWriter(String filename, boolean append)
             BufferedWriter bw =new BufferedWriter(new FileWriter(address,true));
